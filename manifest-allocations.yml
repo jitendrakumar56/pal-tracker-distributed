@@ -7,7 +7,7 @@ applications:
   disk_quota: 475M
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://allocations-pal-distributed-sunidhi.cfapps.io
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-distributed-sunidhi.cfapps.io
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
     JAVA_OPTS: '-Xms64m -Xmx256m'
   services:
